@@ -4,7 +4,7 @@ public class Ex03_12 {
 
         a = 'A';
         System.out.printf(" %c \t", a);
-        System.out.printf(" %d \n", (int)a);
+        System.out.printf(" %d \n", (int) a);
 
         b = 'a';
         c = (char) (b + 1);
@@ -16,7 +16,7 @@ public class Ex03_12 {
 
         d = '가';
         e = (char) (d + 1);
-        System.out.printf(" %d \t", (int)d);
+        System.out.printf(" %d \t", (int) d);
         System.out.printf(" %c \n", e);
     }
 }
