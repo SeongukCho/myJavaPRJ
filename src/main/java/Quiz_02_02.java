@@ -5,17 +5,19 @@ public class Quiz_02_02 {
         Scanner s = new Scanner(System.in);
         int a;
 
-        System.out.printf("정수를 입력하세요 : ");
+        System.out.print("정수를 입력하세요 : ");
         a = s.nextInt();
 
         if (a % 3 == 0 & a % 5 == 0) {
-            System.out.printf("3과 5의 배수입니다.");
+            System.out.print("3과 5의 배수입니다.");
         } else {
             if (a % 3 == 0) {
-                System.out.printf("3의 배수 입니다.");
+                System.out.print("3의 배수 입니다.");
             }
             if (a % 5 == 0) {
-                System.out.printf("5의 배수 입니다.");
+                System.out.print("5의 배수 입니다.");
+            } else {
+                System.out.print("3의 배수도 5의 배수도 아닙니다.");
             }
         }
     }
