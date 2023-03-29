@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class baek1330 {
+public class bkj1330 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int a,b;
