@@ -1,21 +1,22 @@
 import java.io.*;
-import java.util.StringTokenizer;
 
-public class bkj15552 {
+public class bkj2439 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int T = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
 
-        StringTokenizer st;
-
-        for (int i = 0; i < T; i++) {
-            st = new StringTokenizer(br.readLine());
-            bw.write(Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken()) + "\n");
+        for (int i = 1; i <= N; i++) {
+            for (int j = N - i; j > 0; j--) {
+                bw.write(" ");
+            }
+            for (int j = 1; j <= i; j++) {
+                bw.write("*");
+            }
+            bw.newLine();
         }
         br.close();
-
         bw.flush();
         bw.close();
     }
