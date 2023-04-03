@@ -15,7 +15,6 @@ public class bkj2475 {
         }
         System.out.println(sum % 10);
 
-
         br.close();
     }
 }
