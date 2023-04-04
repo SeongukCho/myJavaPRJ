@@ -22,7 +22,7 @@ public class bkj2444 {
                     System.out.print("*");
                 }
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
