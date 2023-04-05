@@ -1,7 +1,7 @@
 public class Ex03_07 {
     public static void main(String[] args) {
         int a;
-        float b;
+        double b;
 
         a = (int) 123.45f;
         b = 200;

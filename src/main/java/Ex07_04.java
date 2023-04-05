@@ -26,7 +26,7 @@ public class Ex07_04 {
                     System.out.printf("%d * %d = %d 입니다. \n", a, b, a * b);
                     break;
                 case '/':
-                    System.out.printf("%d / %d = %f 입니다. \n", a, b, a / (float) b);
+                    System.out.printf("%d / %d = %f 입니다. \n", a, b, a / (double) b);
                     break;
                 case '%':
                     System.out.printf("%d %% %d = %d 입니다. \n", a, b, a % b);
