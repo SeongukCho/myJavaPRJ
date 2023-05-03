@@ -11,7 +11,8 @@ public class set0503 {
         }
 
         System.out.print("저장된 값은 ");
-        hs.forEach(value -> System.out.print(value + " "));
+        hs.forEach(value -> System.out.print(value + ","));
         System.out.print("입니다.");
+//        System.out.println(hs);
     }
 }
