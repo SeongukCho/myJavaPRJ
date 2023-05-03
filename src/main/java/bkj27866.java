@@ -6,6 +6,6 @@ public class bkj27866 {
         String str = sc.nextLine();
         int i = sc.nextInt();
 
-        System.out.println(str.substring(i-1,i));
+        System.out.println(str.charAt(i-1));
     }
 }
