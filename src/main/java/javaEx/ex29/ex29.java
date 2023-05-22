@@ -1,3 +1,5 @@
+package javaEx.ex29;
+
 class Pet {
     private int age;
     private String type;

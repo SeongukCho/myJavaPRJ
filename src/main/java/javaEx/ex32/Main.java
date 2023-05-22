@@ -1,4 +1,4 @@
-package ex32;
+package javaEx.ex32;
 
 class Pet {
     public void move(){

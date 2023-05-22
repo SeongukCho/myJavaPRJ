@@ -1,4 +1,4 @@
-package ex34;
+package javaEx.ex34;
 
 interface Mammal{
     abstract void bear();

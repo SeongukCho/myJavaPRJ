@@ -1,4 +1,4 @@
-package ex33;
+package javaEx.ex33;
 
 class Pet {
     public void move(){
